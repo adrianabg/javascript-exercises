@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    padding: 70px;
+    color: black;
+}
+
+#rating {
+    font-size: 100px;
+    color: white;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    /*background-color: darkcyan;*/
+}
+
+#rating > span:hover:before,
+#rating > span:hover ~ span:before {
+    content: "\f520";
+    color: black;
+} 
